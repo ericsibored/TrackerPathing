@@ -22,22 +22,28 @@
     <div id="map"></div>
     <script>
 
-	// This example creates a 2-pixel-wide red polyline showing the path of
-	// the first trans-Pacific flight between Oakland, CA, and Brisbane,
-	// Australia which was made by Charles Kingsford Smith.
+	//This example creates a 2-pixel-wide red polyline tracking a path around Benedum Hall in Pittsburgh, PA.
+	//Markers are placed and labeled in order of acquisition. 
 
 	function initMap() {
 	  var map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 3,
-		center: {lat: 0, lng: -180},
+		zoom: 17,
+		center: {lat: 40.443741, lng: -79.958},
 		mapTypeId: 'terrain'
 	  });
 
 	  var pathCoordinates = [
-		{lat: 37.772, lng: -122.214},
-		{lat: 21.291, lng: -157.821},
-		{lat: -18.142, lng: 178.431},
-		{lat: -27.467, lng: 153.027}
+		{lat: 40.443737, lng: -79.958351},
+		{lat: 40.443741, lng: -79.958214},
+		{lat: 40.443733, lng: -79.957771},
+		{lat: 40.443581, lng: -79.957664},
+		{lat: 40.443420, lng: -79.958054},
+		{lat: 40.443317, lng: -79.958405},
+		{lat: 40.443409, lng: -79.958839},
+		{lat: 40.443806, lng: -79.958694},
+		{lat: 40.443855, lng: -79.958572},
+		{lat: 40.443531, lng: -79.958641},
+		{lat: 40.443531, lng: -79.958641}
 	  ];
 	  
 	  for (i = 0; i< pathCoordinates.length; i++)
