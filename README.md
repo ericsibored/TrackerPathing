@@ -7,7 +7,7 @@ See below for more information.
 
 Formatting of original GPS coordinate text file :
 
-40.443737, -79.958351
+40.443737, -79.958351\n
 40.443741, -79.958214
 40.443733, -79.957771
 40.443581, -79.957664
