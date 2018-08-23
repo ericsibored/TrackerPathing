@@ -1,7 +1,7 @@
 # TrackerPathing
-This repo contains a web app which displays a map using the Marker and Polyline feature to visualize GPS tracker coordinates. Code is heavily adapted from Google Maps API guides. It also includes a quick Java program to convert large amounts of GPS coordinates to the appropriate formatting for pasting into the web app.
+This repo contains a prototype web app which displays a map using the Marker and Polyline feature to visualize GPS tracker coordinates. Code is heavily adapted from Google Maps API guides. It also includes a quick Java program to convert large amounts of GPS coordinates to the appropriate formatting for pasting into the web app.
 
-To use, simply insert your personal API key from Google Maps within the code and replace the existing GPS coordinate information with your own. To make this easier, I've included a Java program will reformat coordinate information from the below format (typical output from asset trackers), to one which is understood by the web app. 
+To use: simply insert your personal API key from Google Maps within the code and replace the existing GPS coordinate information with your own. To make this easier, I've included a Java program will reformat coordinate information from the below format (typical output from asset trackers), to one which is understood by the web app. 
 
 See below for more information.
 
