@@ -6,6 +6,7 @@ To use: simply insert your personal API key from Google Maps within the code and
 See below for more information.
 
 Formatting of original GPS coordinate text file :
+
 **File must be named "ExampleGPS.txt"
 
 40.443737, -79.958351
